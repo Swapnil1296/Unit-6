@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        JavaScript | With Throttling
+    </title>
+   <style>
+      .main{
+          text-align: center;
+          margin-top: 200px;
+      }
+      #throttle{
+          height:60px;
+          width: 100px;
+          background-color: #fff;
+      }
+   </style>
+</head>
+
+<body>
+  
+    <div class="main">
+        <button id="throttle" >Click Me</button>
+    </div>
+</body>
+
+</html>
+
+<script>
+    const debounceBtn = document.querySelector("#throttle");
+
+
+ const debounce = function (func, delay) {
+        let timer;
+        return function () {     //anonymous function
+            const context = this;
+            const args = arguments;
+            clearTimeout(timer);
+            timer = setTimeout(() => {
+                func.apply(context, args)
+            }, delay);
+        }
+    }
+    debounceBtn.addEventListener('click', debounce(function () {
+        console.info('Hey! It is', new Date().toUTCString());
+    }, 3000));
+</script>
