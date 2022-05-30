@@ -1,42 +1,58 @@
 {
-   "countries": [
-      {
-         "id": 1,
-         "name": "India"
-      },
-      {
-         "id": 2,
-         "name": "SriLanka"
-      },
-      {
-         "id": 3,
-         "name": "USA"
-      }
-   ],
-   "cities": [
-      {
-         "id": 1,
-         "country": "India",
-         "city": "Delhi",
-         "population": 19000000
-      },
-      {
-         "id": 2,
-         "country": "SriLanka",
-         "city": "Colombo",
-         "population": 5600000
-      },
-      {
-         "id": 3,
-         "country": "USA",
-         "city": "Chicago",
-         "population": 2920000
-      },
-      {
-         "city": "asdf",
-         "country": "USA",
-         "population": 123,
-         "id": 4
-      }
-   ]
+  "countries": [
+    {
+      "id": 1,
+      "name": "India"
+    },
+    {
+      "id": 2,
+      "name": "SriLanka"
+    },
+    {
+      "id": 3,
+      "name": "USA"
+    },
+    {
+      "countryName": "Maharashtra",
+      "id": 4
+    },
+    {
+      "countryName": "Maharashtra",
+      "id": 5
+    },
+    {
+      "countryName": "Maharashtra",
+      "id": 6
+    },
+    {
+      "countryName": "Maharashtra,india,400000",
+      "id": 7
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "country": "India",
+      "city": "Delhi",
+      "population": 19000000
+    },
+    {
+      "id": 2,
+      "country": "SriLanka",
+      "city": "Colombo",
+      "population": 5600000
+    },
+    {
+      "id": 3,
+      "country": "USA",
+      "city": "Chicago",
+      "population": 2920000
+    },
+    {
+      "city": "asdf",
+      "country": "USA",
+      "population": 123,
+      "id": 4
+    }
+  ]
 }
