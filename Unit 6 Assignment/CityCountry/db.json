@@ -17,16 +17,12 @@
       "id": 4
     },
     {
-      "countryName": "Maharashtra",
+      "countryName": "India",
       "id": 5
     },
     {
-      "countryName": "Maharashtra",
+      "countryName": "Russia",
       "id": 6
-    },
-    {
-      "countryName": "Maharashtra,india,400000",
-      "id": 7
     }
   ],
   "cities": [
@@ -49,10 +45,22 @@
       "population": 2920000
     },
     {
-      "city": "asdf",
-      "country": "USA",
-      "population": 123,
-      "id": 4
+      "city": "Hingoli",
+      "country": "India",
+      "population": "120000",
+      "id": 6
+    },
+    {
+      "city": "Madras",
+      "country": "India",
+      "population": "19996",
+      "id": 7
+    },
+    {
+      "city": "xyx",
+      "country": "SriLanka",
+      "population": "1221515",
+      "id": 8
     }
   ]
 }

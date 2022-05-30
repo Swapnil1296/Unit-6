@@ -11,7 +11,7 @@ const AddCountry = () => {
       e.preventDefault();
       axios
          .post("http://localhost:8080/countries", country)
-         .then(console.log("Added"));
+         .then(alert("Added"));
    };
    return (
       <div className="form">
