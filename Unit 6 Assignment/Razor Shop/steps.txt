@@ -1,0 +1,11 @@
+how to integrate Rajorpay with website for paymwent
+
+generate the API key on the Rajorpay Dashboard
+download and save api key in system
+
+1) install the Rajorpay nodeJs SDK
+2) instantiate Rajorpay
+3) integrate Orders API in server
+4) add checkOut Parameters
+5) store fields in server
+6) verify paymwent signature
