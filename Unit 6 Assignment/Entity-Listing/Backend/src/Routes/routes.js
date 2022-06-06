@@ -1,6 +1,6 @@
 const express = require('express');
 const router = new express.Router();
-
+const products = require('../models/producSchema');
 // get the products data
 
 router.get('/getproducts', async (req, res) => {
@@ -27,3 +27,5 @@ router.get('/getproducts/:id', async (req, res) => {
     res.status(400).json(error);
   }
 });
+
+module.exports = router;
