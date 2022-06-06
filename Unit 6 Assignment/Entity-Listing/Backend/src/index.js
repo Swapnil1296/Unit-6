@@ -11,4 +11,5 @@ app.use(cors());
 const port =process.env.PORT || 8989;
 
 app.listen(port, () => {
-  console.log(`server is running o
+  console.log(`server is running on ${port}`);
+});
